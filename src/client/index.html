@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta name="author" />
+    <link rel="stylesheet" href="../../dist/main.css"/>
+    <title>Feedback Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+  
+          <div class="left-side" id="left-side">
+            <div class="address details">
+  
+               <img width={250} src="https://seobility.by/upload/CDigital/259/2590793372266ce03ac3fd6eda6aa0d1.svg"/>
+  
+              <div class="topic">Адрес</div>
+              <div class="info"> г. Минск</div>
+              <div class="info"> ул. Лазо 16, 3 этаж, офис 44</div>
+            </div>
+            <div class="phone details">
+              <div class="topic">Телефон</div>
+              <div class="info">+375293321616</div>
+              <div class="info">+375445505550</div>
+            </div>
+            <div class="email details">
+              <div class="topic">Email</div>
+              <div class="info">info@seobility.by</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Отправьте нам сообщение</div>
+            <p>
+              Если у вас есть какие-то вопросы или предложения по сотрудничеству -
+              заполните форму ниже
+            </p>
+            
+            <form class="feedback-form" id="feedback-form" action="">
+              <div class="input-box">
+               
+                
+                <input 
+                class="input-item" name='name' type="text"  placeholder="Ваше имя" id="name" />
+  
+                  
+              </div>
+              
+              <div class="input-box">
+              
+                <input  
+                    class="input-item"
+                    name='' 
+                    type="text" 
+                    placeholder="Введите email"
+                    id="email" />
+              </div>
+  
+  
+              <div class="input-box">
+              
+                <input
+                            class="input-item"
+                            type="text"
+                            placeholder="Введите телефонный номер"
+                            name=""
+                            id="phone"
+
+                    />
+              </div>
+              
+  
+              <div class="input-box message-box">
+                <textarea  class="textarea"
+                name='message' placeholder="Сообщение" id="message"></textarea>
+              </div>
+  
+              <div class="button">
+                <input type="submit" value="Отправить" ></input>
+                <button type="button" class="modal-button" id="openModal">Модальное окно</button>
+
+              </div>
+            </form>
+          </div>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+                <p class="modal-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex natus aspernatur accusantium ut nobis officia nisi, est reiciendis eos deserunt, quisquam voluptate fuga illum consequatur. Dignissimos pariatur illo unde iure?</p>
+            </div>
+        </div>
+        </div>
+      </div>
+
+<script src="../../dist/client.js" defer></script>
+</body>
+</html>
